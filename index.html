@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign up for a Schoology Account</title>
-    </head>
-    <body>
-        <header>
-            <nav> 
-                <div>       
-                    <img src="img/header-logo-transparent.png">
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section> 
-                <div>
-                    <div>
-                        <span>Sign up for Schoology</span>
-                    </div>
-                    <div>
-                        <span><a href="">Back</a></span>
-                    </div>
-                </div>
-                <div>
-                    <input type="text" name="Access Code" id="AccCode" >               
-                </div>
-                <div>
-                    <span>Enter the access code provided by your instructor</span>
-                </div>
-                <div>
-                    <button>Continue</button>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <nav>  
-                <p>
-                    <span>Schoology © 2022 ·</span>
-                    <b><a href="">PRIVACY POLICY</a></b> · 
-                    <a href="">Terms of Use</a> · 
-                    <a href="">Help Center</a>
-                </p>
-            </nav>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Syles.css">
+    
+    <title>Sing up for Schoology account</title>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <div>
+                <a href="https://www.schoology.com/" target="_blank"><img class="logo" src="img/header-logo-transparent.png"></a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-page">  
+        <section>
+            <div class="title-form">
+                <span>Sing up for Schoology</span>
+                <a href="https://app.schoology.com/register.php" target="blank">Back</a>
+            </div>
+            <!-- <div class="input-data">
+                <input type="text" name="Access-code" id="" placeholder="Access Code">
+                <span>Enter the access code provided by your instructor</span>
+                <input type="submit" value="Continue">
+            </div> -->
+            <form action="" class="form-register">
+                <input type="text" name="Access-code" id="" placeholder="Access Code">
+                <span>Enter the access code provided by your instructor</span>
+                <input type="submit" value="Continue">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <span>Schology © 2022</span>
+            <span class="divider">·</span>
+            <a href="https://www.powerschool.com/privacy" target="blank"> 
+                <b>
+                    PRIVACY POLICY
+                </b>
+             </a>
+             <span class="divider">·</span>
+            <a href="https://www.schoology.com/terms-of-use" target="blank">Term of Use</a>
+            <span class="divider">·</span>
+            <a href="https://support.schoology.com/hc/en-us" target="blank">Help Center</a>
+        </div>
+    </footer>
+</body>
 </html>
